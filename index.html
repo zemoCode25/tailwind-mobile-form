@@ -38,7 +38,7 @@
           </div>
         </div>
         <div
-          class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-black rounded-lg px-6 py-4"
+          class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-black rounded-lg px-6 py-6 hidden"
         >
           <h1 class="text-2xl font-bold mb-1 text-MarineBlue">Personal info</h1>
           <p class="mb-1">
@@ -77,10 +77,52 @@
             </div>
           </form>
         </div>
-        <div class="bg-white absolute inset-x-0 bottom-0 p-6 text-right">
-          <button
-            class="px-4 py-2 bg-MarineBlue text-white mt-2 ml-auto rounded-md"
+        <div
+          class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-CoolGray rounded-lg px-6 py-6"
+        >
+          <h1 class="text-2xl font-bold mb-1 text-MarineBlue">Personal info</h1>
+          <p class="mb-3">You have the option of monthly or yearly billing</p>
+          <div class="space-y-3">
+            <div
+              class="flex align-middle px-3 py-3 border-CoolGray border-2 rounded-md"
+            >
+              <img src="/assets/images/images/icon-arcade.svg" alt="" />
+              <div class="flex flex-col ml-2">
+                <h3 class="text-MarineBlue">Arcade</h3>
+                <p class="text-xs">$9/mo</p>
+              </div>
+            </div>
+            <div
+              class="flex align-middle px-3 py-3 border-CoolGray border-2 rounded-md"
+            >
+              <img src="/assets/images/images/icon-advanced.svg" alt="" />
+              <div class="flex flex-col ml-2">
+                <h3 class="text-MarineBlue">Advanced</h3>
+                <p class="text-xs">$12/mo</p>
+              </div>
+            </div>
+            <div
+              class="flex align-middle px-3 py-3 border-CoolGray border-2 rounded-md"
+            >
+              <img src="/assets/images/images/icon-pro.svg" alt="" />
+              <div class="flex flex-col ml-2">
+                <h3 class="text-MarineBlue">Pro</h3>
+                <p class="text-xs">$15/mo</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex justify-center align-middle w-full bg-Magnolia mt-3 p-3 rounded-md space-x-4"
           >
+            <p>Monthly</p>
+            <span
+              class="h-5 w-9 bg-MarineBlue relative rounded-xl after:content-[''] after:h-3 after:w-3 after:bg-white after:rounded-xl after:absolute after:top-1 after:left-1 transition-transform"
+            ></span>
+            <p>Yearly</p>
+          </div>
+        </div>
+        <div class="bg-white absolute inset-x-0 bottom-0 px-4 py-3 text-right">
+          <button class="px-4 py-2 bg-MarineBlue text-white ml-auto rounded-md">
             Next Step
           </button>
         </div>
