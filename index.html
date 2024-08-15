@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <main class="font-ubuntu bg-LightBlue">
+      <section class="relative min-w-45 h-dvh">
+        <div
+          class="bg-cover bg-no-repeat w-full min-h-44"
+          style="
+            background-image: url(/assets/images/images/bg-sidebar-mobile.svg);
+          "
+        >
+          <div
+            class="flex align-middle space-x-6 m-auto w-fit absolute inset-x-0 top-10 bottom-auto"
+          >
+            <button
+              class="text-lg font-semibold border-2 rounded-3xl px-2.5 text-MarineBlue text-center bg-PastelBlue"
+            >
+              1</button
+            ><button
+              class="text-lg font-semibold border-2 rounded-3xl px-2.5 text-white text-center"
+            >
+              2</button
+            ><button
+              class="text-lg font-semibold border-2 rounded-3xl px-2.5 text-white text-center"
+            >
+              3</button
+            ><button
+              class="text-lg font-semibold border-2 rounded-3xl px-2.5 text-white text-center"
+            >
+              4
+            </button>
+          </div>
+        </div>
+        <div
+          class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-black rounded-lg px-6 py-4"
+        >
+          <h1 class="text-2xl font-bold mb-1 text-MarineBlue">Personal info</h1>
+          <p class="mb-1">
+            Please provide your name, email address, and phone number
+          </p>
+          <form action="">
+            <div class="flex align-center flex-col">
+              <label for="name" class="text-sm mb-1 text-MarineBlue"
+                >Name</label
+              >
+              <input
+                type="text"
+                name="name"
+                class="border-2 outline-none py-2 px-4 font-semibold"
+              />
+            </div>
+            <div class="flex align-center flex-col">
+              <label for="name" class="text-sm mb-1 text-MarineBlue"
+                >Email address</label
+              >
+              <input
+                type="text"
+                name="email"
+                class="border-2 outline-none py-2 px-4 font-semibold"
+              />
+            </div>
+            <div class="flex align-center flex-col">
+              <label for="name" class="text-sm mb-1 text-MarineBlue"
+                >Phone number</label
+              >
+              <input
+                type="text"
+                name="phoneNumber"
+                class="border-2 outline-none py-2 px-4 font-semibold"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="bg-white absolute inset-x-0 bottom-0 p-6 text-right">
+          <button
+            class="px-4 py-2 bg-MarineBlue text-white mt-2 ml-auto rounded-md"
+          >
+            Next Step
+          </button>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
