@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
@@ -78,7 +82,7 @@
           </form>
         </div>
         <div
-          class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-CoolGray rounded-lg px-6 py-6"
+          class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-CoolGray rounded-lg px-6 py-6 hidden"
         >
           <h1 class="text-2xl font-bold mb-1 text-MarineBlue">Personal info</h1>
           <p class="mb-3">You have the option of monthly or yearly billing</p>
@@ -119,6 +123,75 @@
               class="h-5 w-9 bg-MarineBlue relative rounded-xl after:content-[''] after:h-3 after:w-3 after:bg-white after:rounded-xl after:absolute after:top-1 after:left-1 transition-transform"
             ></span>
             <p>Yearly</p>
+          </div>
+        </div>
+        <div class="bg-white absolute inset-x-0 bottom-0 px-4 py-3 text-right">
+          <button class="px-4 py-2 bg-MarineBlue text-white ml-auto rounded-md">
+            Next Step
+          </button>
+        </div>
+        <div
+          class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-CoolGray rounded-lg px-6 py-6"
+        >
+          <h1 class="text-2xl font-bold mb-1 text-MarineBlue">Pick add-ons</h1>
+          <p class="mb-3">Add-ons help enhance your gaming experience</p>
+          <div class="space-y-3">
+            <div
+              class="flex align-middle justify-between px-3 py-2 border-LightGray border-2 rounded-md"
+            >
+              <div class="flex align-middle">
+                <button class="leading-none">
+                  <span class="material-symbols-outlined"> check_box </span>
+                </button>
+                <div class="flex flex-col ml-2">
+                  <h3 class="text-MarineBlue font-semibold">Online Service</h3>
+                  <p class="text-xs">Access to multiplayer games</p>
+                </div>
+              </div>
+              <div class="flex align-middle">
+                <p class="text-xs m-auto h-fit text-center text-PurplishBlue">
+                  +$1/mo
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex align-middle justify-between px-3 py-2 border-LightGray border-2 rounded-md"
+            >
+              <div class="flex align-middle">
+                <button class="leading-none">
+                  <span class="material-symbols-outlined"> check_box </span>
+                </button>
+                <div class="flex flex-col ml-2">
+                  <h3 class="text-MarineBlue font-semibold">Larger Storage</h3>
+                  <p class="text-xs">Extra 1TB of cloud save</p>
+                </div>
+              </div>
+              <div class="flex align-middle">
+                <p class="text-xs m-auto h-fit text-center text-PurplishBlue">
+                  +$2/mo
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex align-middle justify-between px-3 py-2 border-LightGray border-2 rounded-md"
+            >
+              <div class="flex align-middle">
+                <button class="leading-none">
+                  <span class="material-symbols-outlined"> check_box </span>
+                </button>
+                <div class="flex flex-col ml-2">
+                  <h3 class="text-MarineBlue font-semibold">
+                    Customizable profile
+                  </h3>
+                  <p class="text-xs">Custom theme on your profile</p>
+                </div>
+              </div>
+              <div class="flex align-middle">
+                <p class="text-xs m-auto h-fit text-center text-PurplishBlue">
+                  +$2/mo
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="bg-white absolute inset-x-0 bottom-0 px-4 py-3 text-right">
