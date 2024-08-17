@@ -9,7 +9,7 @@ export default {
       },
       screens: {
         tablet: "480px",
-        desktop: "1440px",
+        desktop: "1080px",
       },
       colors: {
         MarineBlue: "hsl(213, 96%, 18%)",
