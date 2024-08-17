@@ -8,7 +8,7 @@ export default {
         ubuntu: ["Ubuntu"],
       },
       screens: {
-        mobile: "375px",
+        tablet: "480px",
         desktop: "1440px",
       },
       colors: {

@@ -41,8 +41,9 @@
             </button>
           </div>
         </div>
+        <!-- ---------------------------------------------------First Step--------------------------------------------------------- -->
         <div
-          class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-black rounded-lg px-6 py-6 hidden"
+          class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-black rounded-lg px-6 py-6"
         >
           <h1 class="text-2xl font-bold mb-1 text-MarineBlue">Personal info</h1>
           <p class="mb-1">
@@ -56,7 +57,7 @@
               <input
                 type="text"
                 name="name"
-                class="border-2 outline-none py-2 px-4 font-semibold"
+                class="border-2 outline-none py-2 mb-2 px-4 font-semibold"
               />
             </div>
             <div class="flex align-center flex-col">
@@ -66,7 +67,7 @@
               <input
                 type="text"
                 name="email"
-                class="border-2 outline-none py-2 px-4 font-semibold"
+                class="border-2 outline-none py-2 mb-2 px-4 font-semibold"
               />
             </div>
             <div class="flex align-center flex-col">
@@ -76,11 +77,14 @@
               <input
                 type="text"
                 name="phoneNumber"
-                class="border-2 outline-none py-2 px-4 font-semibold"
+                class="border-2 outline-none py-2 mb-2 px-4 font-semibold"
               />
             </div>
           </form>
         </div>
+
+        <!-- ---------------------------------------------------Second Step--------------------------------------------------------- -->
+
         <div
           class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-CoolGray rounded-lg px-6 py-6 hidden"
         >
@@ -130,8 +134,9 @@
             Next Step
           </button>
         </div>
+        <!-- ---------------------------------------------------Third Step--------------------------------------------------------- -->
         <div
-          class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-CoolGray rounded-lg px-6 py-6"
+          class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-CoolGray rounded-lg px-6 py-6 hidden"
         >
           <h1 class="text-2xl font-bold mb-1 text-MarineBlue">Pick add-ons</h1>
           <p class="mb-3">Add-ons help enhance your gaming experience</p>
@@ -194,7 +199,50 @@
             </div>
           </div>
         </div>
-        <div class="bg-white absolute inset-x-0 bottom-0 px-4 py-3 text-right">
+        <!-- ---------------------------------------------------Fourth Step--------------------------------------------------------- -->
+        <div
+          class="absolute inset-x-0 mx-auto top-24 bottom-auto max-w-[90%] bg-white text-CoolGray rounded-lg px-6 py-6 hidden"
+        >
+          <h1 class="text-2xl font-bold mb-1 text-MarineBlue">Finishing up</h1>
+          <p class="mb-3">
+            Double-check everything looks OK before confirming.
+          </p>
+          <div class="p-3 bg-Magnolia">
+            <div
+              class="flex justify-between py-2 mb-3 border-b-[1px] border-b-CoolGray"
+            >
+              <div class="flex flex-col">
+                <strong class="text-MarineBlue text-xs">
+                  <p>Arcade(Monthly)</p>
+                </strong>
+                <p class="text-xs">Change</p>
+              </div>
+              <strong>
+                <p class="text-xs my-auto text-MarineBlue">$9/mo</p>
+              </strong>
+            </div>
+            <div class="flex justify-between">
+              <p class="text-xs">Online Service</p>
+              <p class="text-xs my-auto text-MarineBlue">$1/mo</p>
+            </div>
+            <div class="flex justify-between">
+              <p class="text-xs">Larger Storage</p>
+              <p class="text-xs my-auto text-MarineBlue">$2/mo</p>
+            </div>
+          </div>
+          <div class="flex justify-between px-3 py-2">
+            <p class="text-xs m-0 p-0 leading-tight my-auto">
+              Total(per mmonth)
+            </p>
+            <strong>
+              <p class="my-auto text-PurplishBlue">$2/mo</p>
+            </strong>
+          </div>
+        </div>
+        <div
+          class="bg-white absolute flex justify-between inset-x-0 bottom-0 px-4 py-3 text-right"
+        >
+          <button class="text-CoolGray">Go Back</button>
           <button class="px-4 py-2 bg-MarineBlue text-white ml-auto rounded-md">
             Next Step
           </button>
